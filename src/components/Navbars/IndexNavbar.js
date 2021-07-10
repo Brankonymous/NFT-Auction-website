@@ -69,9 +69,9 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Dogecoin crew"
           >
-            Paper Kit React
+            Eneftee
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -136,12 +136,14 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
+              <Button
+                className="btn-round"
+                color="warning"
+                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-index-navbar"
                 target="_blank"
               >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
-              </NavLink>
+                <i className="nc-icon nc-spaceship"></i> Buy
+              </Button>
             </NavItem>
             <NavItem>
               <Button
@@ -150,7 +152,7 @@ function IndexNavbar() {
                 href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-index-navbar"
                 target="_blank"
               >
-                <i className="nc-icon nc-spaceship"></i> Upgrade to Pro
+                <i className="nc-icon nc-spaceship"></i> Sell
               </Button>
             </NavItem>
           </Nav>
