@@ -20,6 +20,7 @@ import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
+
 import {
   Button,
   Collapse,
@@ -90,7 +91,10 @@ function IndexNavbar() {
           navbar
           isOpen={navbarCollapse}
         >
+          
           <Nav navbar>
+          {/*  
+          NE TREBAJU NAM ZA SADA DRUSTVENE MREZE
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -124,6 +128,7 @@ function IndexNavbar() {
                 <p className="d-lg-none">Instagram</p>
               </NavLink>
             </NavItem>
+            
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -135,11 +140,14 @@ function IndexNavbar() {
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
             </NavItem>
+            */}
+
             <NavItem>
               <Button
+                
                 className="btn-round"
                 color="warning"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-index-navbar"
+                href="/index"
                 target="_blank"
               >
                 <i className="nc-icon nc-spaceship"></i> Buy
@@ -149,7 +157,7 @@ function IndexNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-index-navbar"
+                href="/index"
                 target="_blank"
               >
                 <i className="nc-icon nc-spaceship"></i> Sell
