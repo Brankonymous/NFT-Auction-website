@@ -131,7 +131,7 @@ function IndexNavbar() {
                 href="/register-page"
                 target="_blank"
               >
-                <i className="nc-icon nc-spaceship"></i> Buy
+                <i className="nc-icon nc-spaceship"></i> Explore
               </Button>
             </NavItem>
             <NavItem>
@@ -141,7 +141,7 @@ function IndexNavbar() {
                 href="/register-page"
                 target="_blank"
               >
-                <i className="nc-icon nc-spaceship"></i> Sell
+                <i className="nc-icon nc-spaceship"></i> Create
               </Button>
             </NavItem>
           </Nav>
