@@ -502,16 +502,16 @@
 .bootstrap-datetimepicker-widget a[data-action] {
   padding: 6px 0;
   border-width: 0;
-  color: #66615B;
+  color: #362209;
   background-color: transparent; }
 
 .bootstrap-datetimepicker-widget a[data-action="togglePicker"],
 .bootstrap-datetimepicker-widget a[data-action="togglePicker"]:hover {
-  color: #429cb6 !important; }
+  color: #0d1518 !important; }
 
 .bootstrap-datetimepicker-widget a[data-action]:hover {
   background-color: transparent;
-  color: rgba(255, 255, 255, 0.85); }
+  color: rgba(46, 28, 28, 0.85); }
 
 .bootstrap-datetimepicker-widget a[data-action]:active {
   box-shadow: none; }
@@ -597,7 +597,7 @@
 
 .bootstrap-datetimepicker-widget table th.disabled, .bootstrap-datetimepicker-widget table th.disabled:hover {
   background: none;
-  color: #cfcfca;
+  color: #27271a;
   cursor: not-allowed; }
 
 .bootstrap-datetimepicker-widget table th.prev span, .bootstrap-datetimepicker-widget table th.next span {
@@ -620,7 +620,7 @@
   border-bottom: 1px solid #E3E3E3;
   font-size: 12px;
   text-transform: uppercase;
-  color: #9A9A9A;
+  color: #721010;
   font-weight: 400;
   padding-bottom: 5px;
   padding-top: 10px; }
@@ -629,7 +629,7 @@
   cursor: pointer; }
 
 .bootstrap-datetimepicker-widget table thead tr:first-child th:hover span, .bootstrap-datetimepicker-widget table thead tr:first-child th.picker-switch:hover {
-  background: #E3E3E3; }
+  background: #221818; }
 
 .bootstrap-datetimepicker-widget table td > div {
   border-radius: 4px;
@@ -642,7 +642,7 @@
   font-size: .8em;
   height: 20px;
   line-height: 20px;
-  color: #cfcfca; }
+  color: #242413; }
 
 .bootstrap-datetimepicker-widget table td.day > div {
   height: 30px;
@@ -4466,7 +4466,7 @@ License - nucleoapp.com/license/
 .card-register {
   background-color: #FF8F5E;
   border-radius: 8px;
-  color: #fff;
+  color: #000000;
   max-width: 350px;
   margin: 20px 0 70px;
   min-height: 400px;
@@ -4669,7 +4669,7 @@ License - nucleoapp.com/license/
   font-size: 8em;
   font-weight: 700;
   margin: 0;
-  color: #FFFFFF;
+  color: #000000;
   background: #fbf8ec;
   background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
   background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
@@ -6121,8 +6121,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   padding: 0px;
   border-radius: 50%; }
   .rdtDay.rdtToday.rdtActive, .rdtDay.rdtActive, .rdtDay.rdtActive:hover {
-    background-color: #51cbce !important;
-    color: #FFFFFF; }
+    background-color: #291919 !important;
+    color: #291919; }
 
 .rdtDays tr .dow {
   text-align: center;

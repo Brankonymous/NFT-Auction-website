@@ -152,7 +152,7 @@ function LandingPage() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">Let's talk about   us</h2>
             <Row>
               <Col md="4">
                 <Card className="card-profile card-plain">
