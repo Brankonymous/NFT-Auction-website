@@ -44,16 +44,17 @@ function RegisterPage(){
           <Row>
             <Col className="ml-auto mr-auto" lg="4">
               <Card className="card-register ml-auto mr-auto">
-                <h3 className="title mx-auto">Create your NFT</h3>
+                <h3 className="title mx-auto"><b>Create your NFT</b></h3>
 
                 <Form className="register-form">
-                  <label>NFT Name *</label>
+                  <label><h6>NFT Name *</h6></label>
                   <Input placeholder="Enter your NFT name here" type="text" />
-                  <label>URL *</label>
+                  <label><h6>URL *</h6></label>
                   <Input placeholder="Enter your NFT url here" type="text" />
-                  <label>Starting price *</label>
+                  <label><h6>Starting Price *</h6></label>
                   <Input placeholder="Enter your NFT url here" type="number" />
-                  <label>Pick date *</label>
+                  <label><h6>Pick Date *</h6></label>
+                  <div color='danger'>
                     <InputGroup className="date" id="datetimepicker">
                       <ReactDatetime
                         inputProps={{
@@ -68,19 +69,21 @@ function RegisterPage(){
                         </InputGroupText>
                       </InputGroupAddon>
                     </InputGroup>
-                  <label>Description</label>
+                    <label><h6>Description</h6></label>
                   <Input placeholder="(optional)" type="text" />
                   <center>
                     <Button className="btn-round" color="danger" href="/register-page">
-                      Register
+                      Create
                     </Button>
                   </center>
+
+                  </div>
                 </Form>
               </Card>
             </Col>
             <Col className="ml-auto mr-auto" lg="8">
               <Card className="card-profile">
-                <h3 className="title mx-auto">Browse existing NFT's</h3>
+                <h3 className="title mx-auto"><b>Browse existing NFT's</b></h3>
               
               <Row>
               <div class="col-sm-6 col-md-4">

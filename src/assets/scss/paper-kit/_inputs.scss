@@ -3,11 +3,11 @@
 };
 
 .form-control:focus + .input-group-text{
-    border: 1px solid black;
+    border: 10px solid black;
 }
 .form-control {
     background-color: $white-bg;
-    border: 1px solid $medium-gray;
+    border: 10px solid $medium-gray;
     border-radius: $border-radius-base;
     color: $font-color;
     font-size: $font-size-base;
@@ -18,30 +18,17 @@
 
     &:focus{
        background-color: $white-bg;
-       border: 1px solid $table-line-color;
+       border: 10px solid $table-line-color;
        @include box-shadow(none);
        outline: 0 !important;
 
        + .input-group-prepend,
        + .input-group-append {
             .input-group-text {
-              border: 1px solid $table-line-color;
-              border-left: none;
+              border: 10px solid $table-line-color;
+              //border-left: none;
             }
        }
-    }
-
-    &.no-border{
-        border: medium none !important;
-
-        &:focus {
-          + .input-group-prepend,
-          + .input-group-append {
-               .input-group-text {
-                 border: none;
-               }
-          }
-        }
     }
 
     .has-success &,
@@ -52,7 +39,7 @@
     }
 
     .has-success &{
-        border: 1px solid $table-line-color;
+        border: 10px solid $table-line-color;
         color: $font-color;
 
         &.form-control-success{
@@ -60,12 +47,12 @@
         }
     }
     .has-success &:focus{
-        border: 1px solid $success-color;
+        border: 10px solid $success-color;
         color: $success-color;
     }
     .has-danger &{
         background-color: $danger-input-bg;
-        border: 1px solid $danger-color;
+        border: 10px solid $danger-color;
         color: $danger-color;
 
         &.form-control-danger{
@@ -74,7 +61,7 @@
     }
     .has-danger &:focus{
         background-color: $white-color;
-        border: 1px solid $danger-color;
+        border: 10px solid $danger-color;
     }
 
     & + .form-control-feedback{
@@ -90,7 +77,7 @@
 
     .open &{
         border-radius: $border-radius-base $border-radius-base 0 0;
-        border-bottom-color: transparent;
+        //border-bottom-color: transparent;
     }
 
     &.form-control-lg {
@@ -121,22 +108,22 @@
 
 .input-group-prepend + .form-control {
   margin-left: -1px;
-  border-left: none;
+  border-left: 10px solid #000;
 }
 .form-control + .input-group-append .input-group-text {
-  border-right: 1px solid #ddd;
+  border-right: 10px solid #000;
 }
 
 .input-group>.custom-select:not(:last-child),
 .input-group>.form-control:not(:last-child) {
-  border-right: none;
+  border-right: 10px solid #000;
 }
 
 .input-group-text {
     background-color: $white-bg;
     border-radius: $border-radius-base;
-    border: 1px solid #ddd;
-    border-right: none;
+    border: 10px solid #000;
+    border-right: 10px solid #000;
 
     .has-success &,
     .has-error &{
@@ -155,11 +142,6 @@
 }
 
 .input-group {
-  &.no-border{
-    .input-group-text {
-      border: 0;
-    }
-  }
 }
 
 
@@ -173,7 +155,7 @@ textarea.form-control{
 
 .register-form {
   .form-control {
-    border: 1px solid transparent !important;
+    border: 3px solid rgb(158, 139, 139) !important;
   }
   .input-group .form-control {
     margin-left: -1px;
